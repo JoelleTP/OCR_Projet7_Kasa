@@ -1,0 +1,21 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 45px auto 50px auto;
+    max-width: 1240px;
+}
+
+.navbar {
+    display: flex;
+    gap: 57px;
+    &__link {
+        text-decoration: none;
+        font-weight: 500;
+        font-size: 24px;
+        color: #000000; 
+        &--active {
+            text-decoration: underline;
+        }
+    }   
+}

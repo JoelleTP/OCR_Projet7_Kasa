@@ -1,0 +1,17 @@
+* {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+section {
+    margin: auto;
+    max-width: 1240px;
+}
+
+.AproposSection {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+    margin: 38px auto;
+}
