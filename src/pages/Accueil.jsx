@@ -9,12 +9,11 @@ function Accueil() {
     return (
         <>
             <Header />
-        <section>
             <Banner 
                 title="Chez vous, partout et ailleurs"
                 image={imageAccueil}
+                brightness="40"
             />
-        </section>
         <section>
             <Gallery />
         </section>         
