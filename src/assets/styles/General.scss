@@ -8,6 +8,11 @@ section {
     max-width: 1240px;
 }
 
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
 .AproposSection {
     display: flex;
     flex-direction: column;

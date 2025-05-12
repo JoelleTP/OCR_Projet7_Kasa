@@ -1,0 +1,39 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 0 24px 0;
+}
+.container__title {
+    display: flex;
+    flex-direction: column;
+}
+
+.logementPage__title {
+    font-size: 36px;
+    color: #FF6060;
+    font-weight: 500;
+}
+.logementPage__subtitle {
+    font-size: 18px;
+    font-weight: 500;
+    color: black;
+    margin-top: 10px;
+}
+
+.tags {
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.container__hostRate {
+    display: flex;
+    flex-direction: column;
+    gap: 21px;
+}
+
+.collapse__container {
+    display: flex;
+    gap: 76px;
+    margin-bottom: 50px;
+}
