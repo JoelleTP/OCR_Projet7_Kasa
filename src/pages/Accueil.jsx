@@ -12,7 +12,6 @@ function Accueil() {
             <Banner 
                 title="Chez vous, partout et ailleurs"
                 image={imageAccueil}
-                brightness="40"
             />
         <section>
             <Gallery />

@@ -1,4 +1,4 @@
-function Card({ id, title, cover }) {
+function Card({ title, cover }) {
     return (
     <>
         <img className="card__cover" src={cover} alt={`${title} cover`} />

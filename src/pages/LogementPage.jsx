@@ -8,10 +8,12 @@ import Tag from '../components/Tag/Tag.jsx'
 import Host from '../components/Host/Host.jsx'
 import Rate from '../components/Rate/Rate.jsx'
 import '../assets/styles/LogementPage.scss'
+import ErrorPage from './ErrorPage.jsx'
  
 function LogementPage() {
     const { id } = useParams()
     const logement = annonceLogement.find((item) => item.id === id)
+    if(!logement) return(<ErrorPage />)
     
     return (
         <>

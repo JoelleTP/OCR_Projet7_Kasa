@@ -2,20 +2,38 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 45px auto 50px auto;
-    max-width: 1240px;
+    margin: 45px 100px 50px 100px;
+    @media (max-width: 768px) {
+        margin: 20px 20px 27px 20px;
+    } 
+}
+
+header img {
+    @media (max-width: 768px) {
+        width: 145px;
+        height: 47px;
+    } 
 }
 
 .navbar {
     display: flex;
     gap: 57px;
+    align-items: center;
+    @media (max-width: 768px) {
+        gap: 26px;
+    }
     &__link {
         text-decoration: none;
         font-weight: 500;
         font-size: 24px;
-        color: #000000; 
+        color: #000000;
+        @media (max-width: 768px) {
+        font-size: 12px;
+        text-transform: uppercase;
+        } 
         &--active {
             text-decoration: underline;
         }
+       
     }   
 }

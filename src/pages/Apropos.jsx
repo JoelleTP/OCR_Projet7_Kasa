@@ -11,16 +11,17 @@ function Apropos() {
             <Header />
             <Banner
                     image={imageApropos}
-                    brightness="70"
             />
-            <section className="AproposSection">
-                {AproposTxt.map(({ id, name, description }) => (
-                    <Collapse
-                        key={id}
-                        name={name}
-                        description={description}    
-                    />
-                ))}
+            <section> 
+                <div className="AproposSection">
+                    {AproposTxt.map(({ id, name, description }) => (
+                        <Collapse
+                            key={id}
+                            name={name}
+                            description={description}    
+                        />
+                    ))}
+                </div>
             </section>
             <Footer />
         </>

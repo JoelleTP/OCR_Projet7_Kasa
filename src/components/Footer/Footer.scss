@@ -6,6 +6,10 @@ footer {
     align-items: center;
     padding: 66px 0 29px 0;
     gap: 50px;
+    @media (max-width: 768px) {
+        gap: 20px;
+        padding: 66px 0 58px 0;
+    } 
 }
 
 .footer__logo {
@@ -18,4 +22,10 @@ footer {
     color: white;
     font-size: 24px;
     font-weight: 500;
+    @media (max-width: 768px) {
+        font-size: 12px;
+        width: 122px;
+        text-align: center;
+        padding: 0 10px;
+    } 
 }
