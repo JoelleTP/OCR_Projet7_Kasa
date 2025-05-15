@@ -1,7 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-import Router from "./pages/Router.jsx"
-
+import Router from "./components/Router/Router.jsx"
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(

@@ -1,10 +1,11 @@
 import './Host.scss'
 
 function Host({host}) {
-    return(
+    if (!host) return null
+    return (
         <div className="host">
-            <p className="host__name">{host.name}</p>
-            <img className="host__photo" src={host.picture} alt=""/>
+            <p className="host__name">{host.name || "Anonyme"}</p>
+            {host.picture && <img className="host__photo" src={host.picture} alt="Photo de l'hôte"/>}
         </div>
     )
 }

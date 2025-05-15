@@ -5,10 +5,12 @@ import './Header.scss'
 
 
 function Header() {
-    return (<header>
-        <img src={logo} alt="logo Kasa" />
-        <Nav />
-    </header>)
+    return (
+        <header className="header">
+            <img className="header__logo" src={logo} alt="logo Kasa" />
+            <Nav />
+        </header>
+    )
 }
 
 export default Header

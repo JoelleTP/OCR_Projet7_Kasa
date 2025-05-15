@@ -7,7 +7,7 @@ function Collapse({ name, description }) {
     return (
     <div className={`collapse ${isOpen ? 'collapse--open' : ''}`}>
         <div className="collapse__name">
-            <h2 className="collapse__title">{name}</h2>
+            {name && <h2 className="collapse__title">{name}</h2>}
             <button 
                 className="collapse__button" 
                 onClick={() => setIsOpen(!isOpen)}
@@ -20,7 +20,7 @@ function Collapse({ name, description }) {
             </button>
         </div>
         <div className="collapse__description" aria-hidden={!isOpen}>
-            <div className="collapse__txt">{description}</div>
+            {description && <div className="collapse__txt">{description}</div>}
         </div>
     </div>)
 }

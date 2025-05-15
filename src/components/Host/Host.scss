@@ -1,29 +1,35 @@
+@import "../../assets/styles/Partials/variables.scss";
+
  .host {
     display: flex;
-    gap: 10px;
+    gap: 0.6rem;
     align-items: center;
     text-align: right;
     justify-content:flex-end;
- }
 
- .host__name {
-    font-size: 18px;
-    font-weight: 500;
-    color: #FF6060;
-    max-width: 80px;
-    @media (max-width: 768px) {
-      font-size: 12px;
-      max-width: 65px;
-    } 
- }
+    &__name {
+      font-size: $maintxt_size;
+      color: $primary_color;
+      max-width: 80px;
+      font-weight: 500;
+      @media (max-width: 768px) {
+         font-size: 0.75rem;
+         max-width: 65px;
+      } 
+   }
 
- .host__photo {
-    border-radius: 50%;
-    width: 64px;
-    height: 64px;
-    object-fit: cover;
-    @media (max-width: 768px) {
-      width: 32px;
-      height: 32px;
-    } 
- }
+   &__photo {
+      border-radius: 50%;
+      width: 64px;
+      height: 64px;
+      object-fit: cover;
+      @media (max-width: 768px) {
+         width: 32px;
+         height: 32px;
+      } 
+   }
+}
+
+ 
+
+ 

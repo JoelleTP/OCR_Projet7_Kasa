@@ -1,0 +1,21 @@
+@import "../../assets/styles/Partials/variables.scss";
+
+.navbar {
+    display: flex;
+    gap: 3.5rem;
+    align-items: center;
+    @media (max-width: 768px) {
+        gap: 1.6rem;
+    }
+    &__link {
+        font-size: 1.5rem;
+        font-weight: 500;
+        @media (max-width: 768px) {
+            font-size: 0.75rem;
+            text-transform: uppercase;
+        } 
+        &--active {
+            text-decoration: underline;
+        } 
+    }   
+}

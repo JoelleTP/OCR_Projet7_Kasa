@@ -1,0 +1,19 @@
+@import "../../assets/styles/Partials/variables.scss";
+
+.logement__title {
+    font-size: 2.25rem;
+    color: $primary_color;
+    font-weight: 500;
+    @media (max-width: 768px) {
+        font-size: $maintxt_size;
+    } 
+}
+.logement__subtitle {
+    font-size: $maintxt_size;
+    margin-top: 0.6rem;
+    font-weight: 500;
+    @media (max-width: 768px) {
+        font-size: 0.9rem;
+        margin-top: 0.3rem;
+    } 
+}

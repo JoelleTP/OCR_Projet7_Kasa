@@ -1,0 +1,94 @@
+@import "Partials/variables.scss";
+
+/***General***/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: $main_font;
+    line-height: 143%;
+}
+
+main {
+    margin: 0 6.25rem;
+    @media (max-width: 768px) {
+        margin: 0 1.25rem;
+    } 
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+button {
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+/***Apropos***/
+.aboutSection {
+    display: flex;
+    flex-direction: column;
+    gap: 1.9rem;
+    align-items: center;
+    margin: 2.4rem auto;
+    @media (max-width: 768px) {
+        gap: 1.25rem;
+        margin: 1.2rem 0;
+    } 
+}
+
+/***Page logement***/
+.logementDetails {
+    display: flex;
+    justify-content: space-between;
+    margin: 1.9rem 0 1.5rem 0;
+    @media (max-width: 768px) {
+        flex-direction: column;
+        margin: 0.9rem 0 0.8rem 0;
+    }
+
+    &__titleTags {
+        display: flex;
+        flex-direction: column;
+    }
+
+    &__hostRate {
+        display: flex;
+        flex-direction: column;
+        gap: 1.3rem;
+        @media (max-width: 768px) {
+            flex-direction: row-reverse;
+            justify-content: space-between;
+            align-items: center;
+            gap: 0;
+            margin-top: 1rem;
+        } 
+    }   
+}
+
+.tags {
+    display: flex;
+    gap: 0.6rem;
+    margin-top: 1.25rem;
+    @media (max-width: 768px) {
+        margin-top: 0.6rem;
+    } 
+}
+
+.collapse__container {
+    display: flex;
+    gap: 4.7rem;
+    margin-bottom: 3.1rem;
+    @media (max-width: 768px) {
+        flex-direction: column;
+        gap: 1.25rem;
+        margin-bottom: 1.7rem;
+    } 
+}

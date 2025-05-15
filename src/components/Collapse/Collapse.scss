@@ -1,3 +1,5 @@
+@import "../../assets/styles/Partials/variables.scss";
+
 .collapse {
     width: 82%;
     @media (max-width: 768px) {
@@ -5,40 +7,35 @@
     } 
 
     &__name {
-    background-color: #FF6060;
+    background-color: $primary_color;
     border-radius: 5px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px 15px;
+    padding: 0.6rem 0.9rem;
         @media (max-width: 768px) {
-            padding: 10px;
+            padding: 0.3rem 0.6rem;
         } 
     }
 
     &__button {
-    border: none;
-    background-color: #FF6060;
         @media (max-width: 768px) {
-        width: 22px;
-        height: 12px;
+        width: 1.8rem;
+        height: 1.4rem;
         } 
     }
 
     &__title {
-    color: white;
-    font-size: 24px;
-    font-weight: 700;
+    color: $maintxt_color;
+    font-size: 1.5rem;
         @media (max-width: 768px) {
-        font-size: 13px;
+        font-size: 0.8rem;
         } 
     }
 
     &__description {
     background-color: #F6F6F673;
-    font-size: 18px;
-    font-weight: 400;
-    padding: 0 20px;
+    padding: 0 1.25rem;
     overflow: hidden;
     border-bottom-left-radius: 5px;
     border-bottom-right-radius: 5px;
@@ -48,10 +45,10 @@
     }
 
     &__txt {
-    font-size: 18px;
-    font-weight: 400;
+    font-size: $maintxt_size;
+    font-weight: normal;
         @media (max-width: 768px) {
-        font-size: 13px;
+        font-size: 0.8rem;
         } 
     }
 }
@@ -75,7 +72,7 @@
 }
 
 .collapse--open .collapse__description {
-    padding: 20px;
+    padding: 1.25rem;
     opacity: 1;
-    max-height: 1000px;
+    max-height: 62.5rem;
 }

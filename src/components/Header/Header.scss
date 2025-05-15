@@ -1,39 +1,20 @@
-header {
+@import "../../assets/styles/Partials/variables.scss";
+
+.header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 45px 100px 50px 100px;
+    margin: 2.8rem 6.25rem 3.1rem 6.25rem;
     @media (max-width: 768px) {
-        margin: 20px 20px 27px 20px;
+        margin: 1.25rem 1.25rem 1.7rem 1.25rem;
     } 
-}
 
-header img {
-    @media (max-width: 768px) {
-        width: 145px;
-        height: 47px;
-    } 
-}
-
-.navbar {
-    display: flex;
-    gap: 57px;
-    align-items: center;
-    @media (max-width: 768px) {
-        gap: 26px;
-    }
-    &__link {
-        text-decoration: none;
-        font-weight: 500;
-        font-size: 24px;
-        color: #000000;
+    &__logo {
         @media (max-width: 768px) {
-        font-size: 12px;
-        text-transform: uppercase;
+            width: 145px;
+            height: 47px;
         } 
-        &--active {
-            text-decoration: underline;
-        }
-       
-    }   
+    }
 }
+
+
