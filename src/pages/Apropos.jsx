@@ -2,7 +2,7 @@ import '../assets/styles/style.scss'
 import Banner from "../components/Banner/Banner.jsx"
 import { AproposTxt } from "../data/AproposTxt.jsx"
 import Collapse from "../components/Collapse/Collapse.jsx"
-import imageApropos from "../assets/images/imageApropos.png"
+import imageApropos from "../assets/images/ImageApropos.png"
 
 function Apropos() {
     return (

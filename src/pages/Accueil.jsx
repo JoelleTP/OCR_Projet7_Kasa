@@ -1,7 +1,7 @@
 import '../assets/styles/style.scss'
 import Banner from "../components/Banner/Banner.jsx"
 import Gallery from "../components/Gallery/Gallery.jsx"
-import imageAccueil from "../assets/images/imageAccueil.png"
+import imageAccueil from "../assets/images/ImageAccueil.png"
 
 function Accueil() {
     return (
