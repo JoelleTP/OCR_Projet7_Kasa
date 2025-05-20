@@ -5,10 +5,12 @@ import { Outlet } from "react-router";
 function Layout() {
   return (
     <>
-      <Header />
-      <main>
-        <Outlet />
-      </main>
+      <div className="main_container">
+        <Header />
+        <main>
+          <Outlet />
+        </main>
+      </div>
       <Footer />
     </>
   );

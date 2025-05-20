@@ -13,7 +13,7 @@ function Carrousel({pictures}) {
     updateSlidesPosition(slidesPosition > 0 ? slidesPosition - 1 : slidesCount - 1)  
     
   return (
-    <section className="carrousel">
+    <div className="carrousel">
       <img className="carrousel__image" src={pictures[slidesPosition]} alt={`Image ${slidesPosition + 1}`} />
       { slidesCount > 1 && (
         <>
@@ -32,7 +32,7 @@ function Carrousel({pictures}) {
           <span className="carrousel__slidenumber">{slidesPosition + 1}/{slidesCount}</span>
         </>
       )}
-    </section>
+    </div>
   )
 }
 

@@ -3,7 +3,7 @@ import './Title.scss'
 function Title({ title, subtitle }) {
     return (
         <>
-            {title && <h2 className="logement__title">{title}</h2>}
+            {title && <h1 className="logement__title">{title}</h1>}
             {subtitle && <p className="logement__subtitle">{subtitle}</p>}
         </>
     )

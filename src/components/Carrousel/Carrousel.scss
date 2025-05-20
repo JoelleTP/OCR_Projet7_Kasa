@@ -46,7 +46,8 @@
     position: absolute;
     color: $maintxt_color;
     font-size: $maintxt_size;
-    top: 22.3rem;
+    font-weight: 500;
+    bottom: 1.5rem;
     left: 50%;
     transform: translateX(-50%);
         @media (max-width: 768px) {

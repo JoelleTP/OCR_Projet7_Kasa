@@ -9,6 +9,7 @@ function Accueil() {
             <Banner 
                 title="Chez vous, partout et ailleurs"
                 image={imageAccueil}
+                variant="shadow"
             />
             <Gallery />       
         </>

@@ -48,6 +48,7 @@ function LogementPage() {
                 <Collapse
                     name="Description"
                     description={logement.description}
+                    variant="variant"
                 />
                 <Collapse 
                     name="Equipements"
@@ -58,6 +59,7 @@ function LogementPage() {
                         ))}
                     </ul>
                     }
+                    variant="variant"
                 />
             </section>
         </>

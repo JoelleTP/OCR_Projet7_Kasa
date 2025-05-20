@@ -10,10 +10,7 @@
 }
 
 main {
-    margin: 0 6.25rem;
-    @media (max-width: 768px) {
-        margin: 0 1.25rem;
-    } 
+    padding: 0 1.25rem;
 }
 
 ul {
@@ -29,6 +26,11 @@ button {
     border: none;
     background-color: transparent;
     cursor: pointer;
+}
+
+.main_container {
+    max-width: 1280px;
+    margin: auto;
 }
 
 /***Apropos***/
